@@ -4,6 +4,13 @@
 
 [English README](README.en.md)
 
+<p align="center">
+  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212">小红书</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm">抖音</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://x.com/xDylanLong">X / Twitter</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://looda.cc">个人主页</a>
+</p>
+
 ## 这是什么
 
 这是一个面向产品经理、开发者、设计师、运营、创业者和互联网从业者的内容仓库。

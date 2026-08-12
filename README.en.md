@@ -4,6 +4,13 @@
 
 [中文 README](README.md)
 
+<p align="center">
+  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212">Xiaohongshu</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm">Douyin</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://x.com/xDylanLong">X / Twitter</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://looda.cc">Personal website</a>
+</p>
+
 ## What this repository is
 
 This repository is for product managers, developers, designers, operators, founders, and other people working with internet products.
