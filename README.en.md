@@ -1,4 +1,4 @@
-# Dylan Speaking Series
+# dylan-series-speaking
 
 > A Chinese short-video knowledge base for product judgment, product commercialization, and AI product commercialization.
 
