@@ -1,4 +1,4 @@
 interface:
-  display_name: "Dylan 系列口播"
+  display_name: "Dylan Series Speaking"
   short_description: "先调研热议痛点再生成30篇连续中文口播稿"
   default_prompt: "Use $dylan-series-speaking to research current Chinese and global discussion, then turn a course topic into a 30-episode Chinese short-video speaking series."

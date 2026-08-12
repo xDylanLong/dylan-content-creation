@@ -1,9 +1,9 @@
 ---
 name: dylan-series-speaking
-description: Use when the user wants to turn a course topic, business subject, or learning series into a 30–40 episode Chinese short-video speaking series, especially when they ask for current-topic research, audience pain points, a one-month daily series, episode progression, spoken titles, hooks, script polishing, or AI-expression cleanup.
+description: 当用户需要把课程主题、商业问题或学习系列转化为 30–40 篇连续的中文短视频口播系列，尤其涉及近期话题研究、受众痛点、一个月日更、篇章递进、口播标题、Hook、稿件润色或 AI 表达检查时使用。
 ---
 
-# Dylan 系列口播
+# Dylan Series Speaking
 
 ## 核心目标
 
