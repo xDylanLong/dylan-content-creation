@@ -1,0 +1,28 @@
+{
+  "intent": "concept",
+  "freshness_mode": "balanced_recent",
+  "cluster_mode": "none",
+  "subqueries": [
+    {
+      "label": "primary",
+      "search_query": "product commercialization MVP pricing user pain points",
+      "ranking_query": "What are founders and product builders discussing about product commercialization, MVPs, pricing, and paid validation?",
+      "sources": ["reddit", "x", "youtube", "tiktok", "instagram", "hackernews", "polymarket"],
+      "weight": 1.0
+    },
+    {
+      "label": "pain-points",
+      "search_query": "product validation customer pain pricing complaints paid pilot",
+      "ranking_query": "What pain points, complaints, and buying barriers do people report when validating and commercializing products?",
+      "sources": ["reddit", "x", "youtube", "hackernews"],
+      "weight": 0.8
+    },
+    {
+      "label": "workflows",
+      "search_query": "MVP pricing user research SaaS founder workflow",
+      "ranking_query": "What workflows and practical advice are people sharing about MVPs, user research, pricing, and first paid pilots?",
+      "sources": ["reddit", "x", "youtube", "hackernews"],
+      "weight": 0.7
+    }
+  ]
+}

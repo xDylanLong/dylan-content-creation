@@ -34,6 +34,7 @@ env/
 .mypy_cache/
 .ruff_cache/
 htmlcov/
+**/.last30days-library.db
 
 # Editors
 .vscode/
