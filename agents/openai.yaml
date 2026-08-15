@@ -1,4 +1,4 @@
 interface:
-  display_name: "Dylan Series Speaking"
-  short_description: "先调研热议痛点再生成30篇连续中文口播稿"
-  default_prompt: "Use $dylan-series-speaking to research current Chinese and global discussion, then turn a course topic into a 30-episode Chinese short-video speaking series."
+  display_name: "Dylan Content Creation"
+  short_description: "创作中文长文或视频口播，支持系列课程和新技术讲解"
+  default_prompt: "Use $dylan-content-creation to research when needed, then create a Chinese long-form article or directly readable video speaking piece. Choose between a 30-episode course series and a plain-language new-technology explanation."

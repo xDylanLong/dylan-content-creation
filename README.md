@@ -1,6 +1,6 @@
-# dylan-series-speaking
+# dylan-content-creation
 
-> 一个可复用的 Codex Skill：先研究近期讨论和用户痛点，再把课程主题变成连续的中文短视频口播系列。
+> 一个可复用的 Codex Skill：从主题、素材和研究出发，创作中文长文或视频口播，支持系列课程和新技术大白话讲懂两种模式。
 
 <p align="center">
   <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212">小红书</a>&nbsp;&nbsp;·&nbsp;&nbsp;
@@ -13,9 +13,9 @@
 
 ## 这个仓库是什么
 
-这是 `dylan-series-speaking` Skill 的公开仓库，不是某个课程或某一批口播稿的内容仓库。
+这是 `dylan-content-creation` Skill 的公开仓库，不是某个课程或某一批文章、口播稿的内容仓库。
 
-Skill 负责把课程主题、商业问题或学习材料，转化为有学习递进关系的 30–40 篇中文短视频系列，并在需要时先研究近期中文平台和全球社区的用户语言、痛点与讨论。
+Skill 负责把课程主题、商业问题、研究材料或新技术，转化为中文长文或视频口播。它包含“系列课程模式”和“新技术大白话讲懂模式”，在需要时先研究近期中文平台和全球社区的用户语言、痛点与讨论。
 
 仓库中的 `SKILL.md`、`references/` 和 `agents/` 是可复用的 Skill 本体。具体系列文章、研究快照、口播稿、素材和复盘文件属于 Skill 的运行产出，应放在仓库之外。
 
@@ -35,29 +35,29 @@ Skill 负责把课程主题、商业问题或学习材料，转化为有学习�
 
 ## 安装
 
-将这个仓库放到 Codex 的 Skill 目录，并保留目录名 `dylan-series-speaking`：
+将这个仓库放到 Codex 的 Skill 目录，并保留目录名 `dylan-content-creation`：
 
 ```bash
-git clone https://github.com/xDylanLong/dylan-series-speaking.git \
-  "${CODEX_HOME:-$HOME/.codex}/skills/dylan-series-speaking"
+git clone https://github.com/xDylanLong/dylan-content-creation.git \
+  "${CODEX_HOME:-$HOME/.codex}/skills/dylan-content-creation"
 ```
 
 如果本地已经有同名 Skill，直接用本仓库的 `SKILL.md`、`agents/` 和 `references/` 更新对应文件即可。安装后重新打开 Codex，让 Skill 重新加载。
 
 ## 使用
 
-在 Codex 中使用 `$dylan-series-speaking`，例如：
+在 Codex 中使用 `$dylan-content-creation`，例如：
 
 ```text
-用 $dylan-series-speaking 把“产品商业化”做成 30 篇中文短视频口播系列。
+用 $dylan-content-creation 把“产品商业化”做成 30 篇中文系列课程，输出长文。
 ```
 
-只给主题时，Skill 默认按 30 篇、1 个月日更、中文、零基础、每篇约 3 分钟处理；也可以直接指定篇数、受众、时长、已有材料或输出目录。
+只给课程主题时，Skill 默认按 30 篇、1 个月日更、中文、零基础处理；只给新技术主题时，默认先写一篇长文。也可以直接指定篇数、受众、字数、视频时长、已有材料或输出目录。
 
 运行产出建议放在独立目录，例如：
 
 ```text
-~/Documents/dylan-series-speaking/{系列名}/
+~/Documents/dylan-content-creation/{项目名}/
 ├── 00-系列计划.md
 ├── 01.md
 ├── research/
@@ -70,7 +70,7 @@ git clone https://github.com/xDylanLong/dylan-series-speaking.git \
 
 涉及“当前、最近、热议”、新产品、新平台、新事件、新案例或用户抱怨时，Skill 会要求先使用对应的近期研究能力。研究结果用于选择切口、案例和用户语言，不等于受众规模、平台热度或行业普遍规律的证明。
 
-口播中的事实、近期信号、课程推导和假设案例需要分开标注；没有可靠材料时，不编造个人经历、客户结果、数据或效果承诺。
+长文和视频口播中的事实、近期信号、课程推导和假设案例需要分开标注；没有可靠材料时，不编造个人经历、客户结果、数据或效果承诺。视频口播只输出可直接朗读的内容，不安排画面、分镜或拍摄脚本。
 
 ## 贡献
 
