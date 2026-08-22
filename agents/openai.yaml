@@ -1,4 +1,4 @@
 interface:
   display_name: "Dylan Content Creation"
-  short_description: "创作中文长文或视频口播，支持系列课程和新技术讲解"
-  default_prompt: "Use $dylan-content-creation to research when needed, then create a Chinese long-form article or directly readable video speaking piece. Choose between a 30-episode course series and a plain-language new-technology explanation."
+  short_description: "创作中文长文、系列课程与 1–10 分钟单点视频口播"
+  default_prompt: "Use $dylan-content-creation to create a Chinese long-form article, course series, single-point video speaking piece, or plain-language technology explanation."
